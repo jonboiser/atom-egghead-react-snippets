@@ -1,0 +1,14 @@
+# Generated with Atomizr v0.14.0 - https://github.com/idleberg/atomizr
+'.source.js.jsx':
+  'imrd':
+    'prefix': 'imrd'
+    'body': 'import ReactDOM from \'react-dom\';'
+  'fdn':
+    'prefix': 'fdn'
+    'body': 'ReactDOM.findDOMNode($0)'
+  'rdr':
+    'prefix': 'rdr'
+    'body': 'ReactDOM.render($0)'
+  'unm':
+    'prefix': 'unm'
+    'body': 'ReactDOM.unmountComponentAtNode($0)'

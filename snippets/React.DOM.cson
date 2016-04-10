@@ -1,0 +1,368 @@
+# Generated with Atomizr v0.14.0 - https://github.com/idleberg/atomizr
+'.source.js.jsx':
+  'Ra':
+    'prefix': 'Ra'
+    'body': 'React.DOM.a($0)'
+  'Rabbr':
+    'prefix': 'Rabbr'
+    'body': 'React.DOM.abbr($0)'
+  'Raddress':
+    'prefix': 'Raddress'
+    'body': 'React.DOM.address($0)'
+  'Rarea':
+    'prefix': 'Rarea'
+    'body': 'React.DOM.area($0)'
+  'Rarticle':
+    'prefix': 'Rarticle'
+    'body': 'React.DOM.article($0)'
+  'Raside':
+    'prefix': 'Raside'
+    'body': 'React.DOM.aside($0)'
+  'Raudio':
+    'prefix': 'Raudio'
+    'body': 'React.DOM.audio($0)'
+  'Rb':
+    'prefix': 'Rb'
+    'body': 'React.DOM.b($0)'
+  'Rbase':
+    'prefix': 'Rbase'
+    'body': 'React.DOM.base($0)'
+  'Rbdi':
+    'prefix': 'Rbdi'
+    'body': 'React.DOM.bdi($0)'
+  'Rbdo':
+    'prefix': 'Rbdo'
+    'body': 'React.DOM.bdo($0)'
+  'Rbig':
+    'prefix': 'Rbig'
+    'body': 'React.DOM.big($0)'
+  'Rblockquote':
+    'prefix': 'Rblockquote'
+    'body': 'React.DOM.blockquote($0)'
+  'Rbody':
+    'prefix': 'Rbody'
+    'body': 'React.DOM.body($0)'
+  'Rbr':
+    'prefix': 'Rbr'
+    'body': 'React.DOM.br($0)'
+  'Rbutton':
+    'prefix': 'Rbutton'
+    'body': 'React.DOM.button($0)'
+  'Rcanvas':
+    'prefix': 'Rcanvas'
+    'body': 'React.DOM.canvas($0)'
+  'Rcaption':
+    'prefix': 'Rcaption'
+    'body': 'React.DOM.caption($0)'
+  'Rcircle':
+    'prefix': 'Rcircle'
+    'body': 'React.DOM.circle($0)'
+  'Rcite':
+    'prefix': 'Rcite'
+    'body': 'React.DOM.cite($0)'
+  'Rcode':
+    'prefix': 'Rcode'
+    'body': 'React.DOM.code($0)'
+  'Rcol':
+    'prefix': 'Rcol'
+    'body': 'React.DOM.col($0)'
+  'Rcolgroup':
+    'prefix': 'Rcolgroup'
+    'body': 'React.DOM.colgroup($0)'
+  'Rdata':
+    'prefix': 'Rdata'
+    'body': 'React.DOM.data($0)'
+  'Rdatalist':
+    'prefix': 'Rdatalist'
+    'body': 'React.DOM.datalist($0)'
+  'Rdd':
+    'prefix': 'Rdd'
+    'body': 'React.DOM.dd($0)'
+  'Rdefs':
+    'prefix': 'Rdefs'
+    'body': 'React.DOM.defs($0)'
+  'Rdel':
+    'prefix': 'Rdel'
+    'body': 'React.DOM.del($0)'
+  'Rdetails':
+    'prefix': 'Rdetails'
+    'body': 'React.DOM.details($0)'
+  'Rdfn':
+    'prefix': 'Rdfn'
+    'body': 'React.DOM.dfn($0)'
+  'Rdiv':
+    'prefix': 'Rdiv'
+    'body': 'React.DOM.div($0)'
+  'Rdl':
+    'prefix': 'Rdl'
+    'body': 'React.DOM.dl($0)'
+  'Rdt':
+    'prefix': 'Rdt'
+    'body': 'React.DOM.dt($0)'
+  'Rem':
+    'prefix': 'Rem'
+    'body': 'React.DOM.em($0)'
+  'Rembed':
+    'prefix': 'Rembed'
+    'body': 'React.DOM.embed($0)'
+  'Rfieldset':
+    'prefix': 'Rfieldset'
+    'body': 'React.DOM.fieldset($0)'
+  'Rfigcaption':
+    'prefix': 'Rfigcaption'
+    'body': 'React.DOM.figcaption($0)'
+  'Rfigure':
+    'prefix': 'Rfigure'
+    'body': 'React.DOM.figure($0)'
+  'Rfooter':
+    'prefix': 'Rfooter'
+    'body': 'React.DOM.footer($0)'
+  'Rform':
+    'prefix': 'Rform'
+    'body': 'React.DOM.form($0)'
+  'Rg':
+    'prefix': 'Rg'
+    'body': 'React.DOM.g($0)'
+  'Rh1':
+    'prefix': 'Rh1'
+    'body': 'React.DOM.h1($0)'
+  'Rh2':
+    'prefix': 'Rh2'
+    'body': 'React.DOM.h2($0)'
+  'Rh3':
+    'prefix': 'Rh3'
+    'body': 'React.DOM.h3($0)'
+  'Rh4':
+    'prefix': 'Rh4'
+    'body': 'React.DOM.h4($0)'
+  'Rh5':
+    'prefix': 'Rh5'
+    'body': 'React.DOM.h5($0)'
+  'Rh6':
+    'prefix': 'Rh6'
+    'body': 'React.DOM.h6($0)'
+  'Rhead':
+    'prefix': 'Rhead'
+    'body': 'React.DOM.head($0)'
+  'Rheader':
+    'prefix': 'Rheader'
+    'body': 'React.DOM.header($0)'
+  'Rhr':
+    'prefix': 'Rhr'
+    'body': 'React.DOM.hr($0)'
+  'Rhtml':
+    'prefix': 'Rhtml'
+    'body': 'React.DOM.html($0)'
+  'Ri':
+    'prefix': 'Ri'
+    'body': 'React.DOM.i($0)'
+  'Riframe':
+    'prefix': 'Riframe'
+    'body': 'React.DOM.iframe($0)'
+  'Rimg':
+    'prefix': 'Rimg'
+    'body': 'React.DOM.img($0)'
+  'Rinput':
+    'prefix': 'Rinput'
+    'body': 'React.DOM.input($0)'
+  'Rins':
+    'prefix': 'Rins'
+    'body': 'React.DOM.ins($0)'
+  'Rkbd':
+    'prefix': 'Rkbd'
+    'body': 'React.DOM.kbd($0)'
+  'Rkeygen':
+    'prefix': 'Rkeygen'
+    'body': 'React.DOM.keygen($0)'
+  'Rlabel':
+    'prefix': 'Rlabel'
+    'body': 'React.DOM.label($0)'
+  'Rlegend':
+    'prefix': 'Rlegend'
+    'body': 'React.DOM.legend($0)'
+  'Rli':
+    'prefix': 'Rli'
+    'body': 'React.DOM.li($0)'
+  'Rline':
+    'prefix': 'Rline'
+    'body': 'React.DOM.line($0)'
+  'RlinearGradient':
+    'prefix': 'RlinearGradient'
+    'body': 'React.DOM.linearGradient($0)'
+  'Rlink':
+    'prefix': 'Rlink'
+    'body': 'React.DOM.link($0)'
+  'Rmain':
+    'prefix': 'Rmain'
+    'body': 'React.DOM.main($0)'
+  'Rmap':
+    'prefix': 'Rmap'
+    'body': 'React.DOM.map($0)'
+  'Rmark':
+    'prefix': 'Rmark'
+    'body': 'React.DOM.mark($0)'
+  'Rmenu':
+    'prefix': 'Rmenu'
+    'body': 'React.DOM.menu($0)'
+  'Rmenuitem':
+    'prefix': 'Rmenuitem'
+    'body': 'React.DOM.menuitem($0)'
+  'Rmeta':
+    'prefix': 'Rmeta'
+    'body': 'React.DOM.meta($0)'
+  'Rmeter':
+    'prefix': 'Rmeter'
+    'body': 'React.DOM.meter($0)'
+  'Rnav':
+    'prefix': 'Rnav'
+    'body': 'React.DOM.nav($0)'
+  'Rnoscript':
+    'prefix': 'Rnoscript'
+    'body': 'React.DOM.noscript($0)'
+  'Robject':
+    'prefix': 'Robject'
+    'body': 'React.DOM.object($0)'
+  'Rol':
+    'prefix': 'Rol'
+    'body': 'React.DOM.ol($0)'
+  'Roptgroup':
+    'prefix': 'Roptgroup'
+    'body': 'React.DOM.optgroup($0)'
+  'Roption':
+    'prefix': 'Roption'
+    'body': 'React.DOM.option($0)'
+  'Routput':
+    'prefix': 'Routput'
+    'body': 'React.DOM.output($0)'
+  'Rp':
+    'prefix': 'Rp'
+    'body': 'React.DOM.p($0)'
+  'Rparam':
+    'prefix': 'Rparam'
+    'body': 'React.DOM.param($0)'
+  'Rpath':
+    'prefix': 'Rpath'
+    'body': 'React.DOM.path($0)'
+  'Rpolygon':
+    'prefix': 'Rpolygon'
+    'body': 'React.DOM.polygon($0)'
+  'Rpolyline':
+    'prefix': 'Rpolyline'
+    'body': 'React.DOM.polyline($0)'
+  'Rpre':
+    'prefix': 'Rpre'
+    'body': 'React.DOM.pre($0)'
+  'Rprogress':
+    'prefix': 'Rprogress'
+    'body': 'React.DOM.progress($0)'
+  'Rq':
+    'prefix': 'Rq'
+    'body': 'React.DOM.q($0)'
+  'RradialGradient':
+    'prefix': 'RradialGradient'
+    'body': 'React.DOM.radialGradient($0)'
+  'Rrect':
+    'prefix': 'Rrect'
+    'body': 'React.DOM.rect($0)'
+  'Rrp':
+    'prefix': 'Rrp'
+    'body': 'React.DOM.rp($0)'
+  'Rrt':
+    'prefix': 'Rrt'
+    'body': 'React.DOM.rt($0)'
+  'Rruby':
+    'prefix': 'Rruby'
+    'body': 'React.DOM.ruby($0)'
+  'Rs':
+    'prefix': 'Rs'
+    'body': 'React.DOM.s($0)'
+  'Rsamp':
+    'prefix': 'Rsamp'
+    'body': 'React.DOM.samp($0)'
+  'Rscript':
+    'prefix': 'Rscript'
+    'body': 'React.DOM.script($0)'
+  'Rsection':
+    'prefix': 'Rsection'
+    'body': 'React.DOM.section($0)'
+  'Rselect':
+    'prefix': 'Rselect'
+    'body': 'React.DOM.select($0)'
+  'Rsmall':
+    'prefix': 'Rsmall'
+    'body': 'React.DOM.small($0)'
+  'Rsource':
+    'prefix': 'Rsource'
+    'body': 'React.DOM.source($0)'
+  'Rspan':
+    'prefix': 'Rspan'
+    'body': 'React.DOM.span($0)'
+  'Rstop':
+    'prefix': 'Rstop'
+    'body': 'React.DOM.stop($0)'
+  'Rstrong':
+    'prefix': 'Rstrong'
+    'body': 'React.DOM.strong($0)'
+  'Rstyle':
+    'prefix': 'Rstyle'
+    'body': 'React.DOM.style($0)'
+  'Rsub':
+    'prefix': 'Rsub'
+    'body': 'React.DOM.sub($0)'
+  'Rsummary':
+    'prefix': 'Rsummary'
+    'body': 'React.DOM.summary($0)'
+  'Rsup':
+    'prefix': 'Rsup'
+    'body': 'React.DOM.sup($0)'
+  'Rsvg':
+    'prefix': 'Rsvg'
+    'body': 'React.DOM.svg($0)'
+  'Rtable':
+    'prefix': 'Rtable'
+    'body': 'React.DOM.table($0)'
+  'Rtbody':
+    'prefix': 'Rtbody'
+    'body': 'React.DOM.tbody($0)'
+  'Rtd':
+    'prefix': 'Rtd'
+    'body': 'React.DOM.td($0)'
+  'Rtext':
+    'prefix': 'Rtext'
+    'body': 'React.DOM.text($0)'
+  'Rtextarea':
+    'prefix': 'Rtextarea'
+    'body': 'React.DOM.textarea($0)'
+  'Rtfoot':
+    'prefix': 'Rtfoot'
+    'body': 'React.DOM.tfoot($0)'
+  'Rth':
+    'prefix': 'Rth'
+    'body': 'React.DOM.th($0)'
+  'Rthead':
+    'prefix': 'Rthead'
+    'body': 'React.DOM.thead($0)'
+  'Rtime':
+    'prefix': 'Rtime'
+    'body': 'React.DOM.time($0)'
+  'Rtitle':
+    'prefix': 'Rtitle'
+    'body': 'React.DOM.title($0)'
+  'Rtr':
+    'prefix': 'Rtr'
+    'body': 'React.DOM.tr($0)'
+  'Rtrack':
+    'prefix': 'Rtrack'
+    'body': 'React.DOM.track($0)'
+  'Ru':
+    'prefix': 'Ru'
+    'body': 'React.DOM.u($0)'
+  'Rul':
+    'prefix': 'Rul'
+    'body': 'React.DOM.ul($0)'
+  'Rvideo':
+    'prefix': 'Rvideo'
+    'body': 'React.DOM.video($0)'
+  'Rwbr':
+    'prefix': 'Rwbr'
+    'body': 'React.DOM.wbr($0)'
