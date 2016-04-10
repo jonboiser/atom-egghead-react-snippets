@@ -1,0 +1,8 @@
+# Generated with Atomizr v0.14.0 - https://github.com/idleberg/atomizr
+'.source.js.jsx':
+  'rtsm':
+    'prefix': 'rtsm'
+    'body': 'ReactDOMServer.renderToStaticMarkup($0)'
+  'rts':
+    'prefix': 'rts'
+    'body': 'ReactDOMServer.renderToString($0)'

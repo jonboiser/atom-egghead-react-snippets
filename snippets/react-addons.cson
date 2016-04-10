@@ -1,0 +1,32 @@
+# Generated with Atomizr v0.14.0 - https://github.com/idleberg/atomizr
+'.source.js.jsx':
+  'imrcl':
+    'prefix': 'imrcl'
+    'body': 'import cloneWithProps from \'react-addons-clone-with-props\';$0'
+  'imrcf':
+    'prefix': 'imrcf'
+    'body': 'import createFragment from \'react-addons-create-fragment\';$0'
+  'imrlsm':
+    'prefix': 'imrlsm'
+    'body': 'import LinkedStateMixin from \'react-addons-linked-state-mixin\';$0'
+  'imrp':
+    'prefix': 'imrp'
+    'body': 'import Perf from \'react-addons-perf\';$0'
+  'imrpr':
+    'prefix': 'imrpr'
+    'body': 'import PureRenderMixin from \'react-addons-pure-render-mixin\';$0'
+  'imrcst':
+    'prefix': 'imrcst'
+    'body': 'import ReactCSSTransitionGroup from \'react-addons-css-transition-group\';$0'
+  'imrtu':
+    'prefix': 'imrtu'
+    'body': 'import ReactTestUtils from \'react-addons-test-utils\';$0'
+  'imrtg':
+    'prefix': 'imrtg'
+    'body': 'import ReactTransitionGroup from \'react-addons-transition-group\';$0'
+  'imrsc':
+    'prefix': 'imrsc'
+    'body': 'import shallowCompare from \'react-addons-shallow-compare\';$0'
+  'imru':
+    'prefix': 'imru'
+    'body': 'import update from \'react-addons-update\';$0'

@@ -1,0 +1,346 @@
+# Generated with Atomizr v0.14.0 - https://github.com/idleberg/atomizr
+'.source.js.jsx':
+  '6rec':
+    'prefix': '6rec'
+    'body': """
+      class $1 extends React.Component {
+        render(){
+          $0
+        }
+      }
+    """
+  'rec':
+    'prefix': 'rec'
+    'body': """
+      var $1 = React.createClass({
+        render:function(){
+          return $0
+        }
+      });
+    """
+  'mix':
+    'prefix': 'mix'
+    'body': 'mixins:[$0],'
+  '6cd':
+    'prefix': '6cd'
+    'body': """
+      componentDidMount(){
+      	$0
+      }
+    """
+  '6cw':
+    'prefix': '6cw'
+    'body': """
+      componentWillMount(){
+      	$0
+      }
+    """
+  '6cwu':
+    'prefix': '6cwu'
+    'body': """
+      componentWillUnmount(){
+      	$0
+      }
+    """
+  'cd':
+    'prefix': 'cd'
+    'body': """
+      componentDidMount:function(){
+      	$0
+      },
+    """
+  'cw':
+    'prefix': 'cw'
+    'body': """
+      componentWillMount:function(){
+      	$0
+      },
+    """
+  'cwu':
+    'prefix': 'cwu'
+    'body': """
+      componentWillUnmount:function(){
+      	$0
+      },
+    """
+  '6cdu':
+    'prefix': '6cdu'
+    'body': """
+      componentDidUpdate(prevProps, prevState) {
+        $0
+      }
+    """
+  '6cwr':
+    'prefix': '6cwr'
+    'body': """
+      componentWillReceiveProps(nextProps){
+      	$0
+      }
+    """
+  '6cwup':
+    'prefix': '6cwup'
+    'body': """
+      componentWillUpdate(nextProps, nextState) {
+        $0
+      }
+    """
+  '6scu':
+    'prefix': '6scu'
+    'body': """
+      shouldComponentUpdate(nextProps, nextState) {
+        return ;
+      }
+    """
+  'cdu':
+    'prefix': 'cdu'
+    'body': """
+      componentDidUpdate: function(prevProps, prevState) {
+        $0
+      },
+    """
+  'cwr':
+    'prefix': 'cwr'
+    'body': """
+      componentWillReceiveProps:function(nextProps){
+      	$0
+      },
+    """
+  'cwup':
+    'prefix': 'cwup'
+    'body': """
+      componentWillUpdate: function(nextProps, nextState) {
+        $0
+      },
+    """
+  'scu':
+    'prefix': 'scu'
+    'body': """
+      shouldComponentUpdate: function(nextProps, nextState) {
+        return ;
+      },
+    """
+  'ctt':
+    'prefix': 'ctt'
+    'body': """
+      childContextTypes: {
+        $0
+      },
+    """
+  'cty':
+    'prefix': 'cty'
+    'body': """
+      contextTypes: {
+        $0
+      },
+    """
+  'gc':
+    'prefix': 'gc'
+    'body': """
+      getChildContext:function(){
+        return {
+          $1
+        }
+      },
+    """
+  'rwc':
+    'prefix': 'rwc'
+    'body': """
+      React.withContext({$1}, function(){
+        React.render(<${2:Component} />, document.$0);
+      })
+    """
+  'rc':
+    'prefix': 'rc'
+    'body': 'React.createElement(\'$1\', $2, $3)$0'
+  'rcf':
+    'prefix': 'rcf'
+    'body': 'React.createFactory($1)$0'
+  'onbl':
+    'prefix': 'onbl'
+    'body': 'onBlur$0'
+  'onch':
+    'prefix': 'onch'
+    'body': 'onChange$0'
+  'oncl':
+    'prefix': 'oncl'
+    'body': 'onClick$0'
+  'oncm':
+    'prefix': 'oncm'
+    'body': 'onContextMenu$0'
+  'onco':
+    'prefix': 'onco'
+    'body': 'onCopy$0'
+  'onct':
+    'prefix': 'onct'
+    'body': 'onCut$0'
+  'ondc':
+    'prefix': 'ondc'
+    'body': 'onDoubleClick$0'
+  'onde':
+    'prefix': 'onde'
+    'body': 'onDragEnd$0'
+  'onden':
+    'prefix': 'onden'
+    'body': 'onDragEnter$0'
+  'ondex':
+    'prefix': 'ondex'
+    'body': 'onDragExit$0'
+  'ondl':
+    'prefix': 'ondl'
+    'body': 'onDragLeave$0'
+  'ondo':
+    'prefix': 'ondo'
+    'body': 'onDragOver$0'
+  'onds':
+    'prefix': 'onds'
+    'body': 'onDragStart$0'
+  'ondr':
+    'prefix': 'ondr'
+    'body': 'onDrop$0'
+  'onfo':
+    'prefix': 'onfo'
+    'body': 'onFocus$0'
+  'onin':
+    'prefix': 'onin'
+    'body': 'onInput$0'
+  'onkd':
+    'prefix': 'onkd'
+    'body': 'onKeyDown$0'
+  'onkp':
+    'prefix': 'onkp'
+    'body': 'onKeyPress$0'
+  'onku':
+    'prefix': 'onku'
+    'body': 'onKeyUp$0'
+  'onmd':
+    'prefix': 'onmd'
+    'body': 'onMouseDown$0'
+  'onme':
+    'prefix': 'onme'
+    'body': 'onMouseEnter$0'
+  'onml':
+    'prefix': 'onml'
+    'body': 'onMouseLeave$0'
+  'onmm':
+    'prefix': 'onmm'
+    'body': 'onMouseMove$0'
+  'onmo':
+    'prefix': 'onmo'
+    'body': 'onMouseOut$0'
+  'onmov':
+    'prefix': 'onmov'
+    'body': 'onMouseOver$0'
+  'onmu':
+    'prefix': 'onmu'
+    'body': 'onMouseUp$0'
+  'onpa':
+    'prefix': 'onpa'
+    'body': 'onPaste$0'
+  'onsc':
+    'prefix': 'onsc'
+    'body': 'onScroll$0'
+  'onsu':
+    'prefix': 'onsu'
+    'body': 'onSubmit$0'
+  'ontc':
+    'prefix': 'ontc'
+    'body': 'onTouchCancel$0'
+  'onte':
+    'prefix': 'onte'
+    'body': 'onTouchEnd$0'
+  'ontm':
+    'prefix': 'ontm'
+    'body': 'onTouchMove$0'
+  'onts':
+    'prefix': 'onts'
+    'body': 'onTouchStart$0'
+  'onwh':
+    'prefix': 'onwh'
+    'body': 'onWheel$0'
+  'gd':
+    'prefix': 'gd'
+    'body': """
+      getDefaultProps:function(){
+      	return {
+      		$1
+      	}
+      },
+    """
+  'gi':
+    'prefix': 'gi'
+    'body': """
+      getInitialState:function(){
+      	return {$0}
+      },
+    """
+  'imr':
+    'prefix': 'imr'
+    'body': 'import React from \'react\';'
+  'pt':
+    'prefix': 'pt'
+    'body': """
+      propTypes: {
+      	$0
+      },
+    """
+  'rp':
+    'prefix': 'rp'
+    'body': 'React.PropTypes.$0'
+  'rpa':
+    'prefix': 'rpa'
+    'body': 'React.PropTypes.array$0'
+  'rpao':
+    'prefix': 'rpao'
+    'body': 'React.PropTypes.arrayOf($0)'
+  'rpb':
+    'prefix': 'rpb'
+    'body': 'React.PropTypes.boolean$0'
+  'rpe':
+    'prefix': 'rpe'
+    'body': 'React.PropTypes.element$0'
+  'rpf':
+    'prefix': 'rpf'
+    'body': 'React.PropTypes.func$0'
+  'rpi':
+    'prefix': 'rpi'
+    'body': 'React.PropTypes.instanceOf($0)'
+  'rpn':
+    'prefix': 'rpn'
+    'body': 'React.PropTypes.number$0'
+  'rpobj':
+    'prefix': 'rpobj'
+    'body': 'React.PropTypes.object$0'
+  'rpo':
+    'prefix': 'rpo'
+    'body': 'React.PropTypes.oneOf([\'$0\'])'
+  'rpot':
+    'prefix': 'rpot'
+    'body': 'React.PropTypes.oneOfType[]'
+  'rpsh':
+    'prefix': 'rpsh'
+    'body': """
+      React.PropTypes.shape({
+      	$0
+      })
+    """
+  'rps':
+    'prefix': 'rps'
+    'body': 'React.PropTypes.string$0'
+  'sp':
+    'prefix': 'sp'
+    'body': 'this.setProps({$0})'
+  'ss':
+    'prefix': 'ss'
+    'body': 'this.setState({$0})'
+  'thisc':
+    'prefix': 'thisc'
+    'body': 'this.context.$0'
+  'thisp':
+    'prefix': 'thisp'
+    'body': 'this.props.$0'
+  'thisr':
+    'prefix': 'thisr'
+    'body': 'this.refs.$0'
+  'thiss':
+    'prefix': 'thiss'
+    'body': 'this.state.$0'
