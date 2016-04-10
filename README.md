@@ -7,4 +7,14 @@ If you've seen Joe's videos on [Egghead](https://egghead.io), you've probably se
 
 ## Snippets
 
-Go to [ReactSublimeSnippets](https://github.com/joemaddalone/ReactSublimeSnippets) for a table of all the snippets. Currently, due to how _atomizr_ converts Sublime Text snippets, the autocomplete pop-up does not provide a useful description to the right of the snippet; I've submitted an issue with _atomizr_'s author and hope to release a new version with descriptions.
+Go to [ReactSublimeSnippets](https://github.com/joemaddalone/ReactSublimeSnippets) for a table of all the snippets.
+
+## Roadmap
+
+* Make snippets compliant with AirBnB style guide.
+* Add any new APIs from React v15.
+* Convert tabs to spaces to handle (maybe).
+* Add snippets for redux (maybe).
+* Edit descriptions to make them easier to read in Atom.
+
+Contributions are welcome!
