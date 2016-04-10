@@ -1,6 +1,6 @@
-# Generated with Atomizr v0.14.0 - https://github.com/idleberg/atomizr
+# Generated with Atomizr v0.15.0 - https://github.com/idleberg/atomizr
 '.source.js.jsx':
-  '6rec':
+  'ES6 React.Component class':
     'prefix': '6rec'
     'body': """
       class $1 extends React.Component {
@@ -9,7 +9,7 @@
         }
       }
     """
-  'rec':
+  'React createClass template':
     'prefix': 'rec'
     'body': """
       var $1 = React.createClass({
@@ -18,122 +18,115 @@
         }
       });
     """
-  'mix':
+  'React mixins':
     'prefix': 'mix'
     'body': 'mixins:[$0],'
-  '6cd':
+  'ES6 React componentDidMount':
     'prefix': '6cd'
     'body': """
       componentDidMount(){
       	$0
       }
     """
-  '6cw':
+  'ES6 React componentWillMount':
     'prefix': '6cw'
     'body': """
       componentWillMount(){
       	$0
       }
     """
-  '6cwu':
-    'prefix': '6cwu'
-    'body': """
-      componentWillUnmount(){
-      	$0
-      }
-    """
-  'cd':
-    'prefix': 'cd'
-    'body': """
-      componentDidMount:function(){
-      	$0
-      },
-    """
-  'cw':
-    'prefix': 'cw'
-    'body': """
-      componentWillMount:function(){
-      	$0
-      },
-    """
-  'cwu':
+  'React componentWillUnmount':
     'prefix': 'cwu'
     'body': """
       componentWillUnmount:function(){
       	$0
       },
     """
-  '6cdu':
+  'React componentDidMount':
+    'prefix': 'cd'
+    'body': """
+      componentDidMount:function(){
+      	$0
+      },
+    """
+  'React componentWillMount':
+    'prefix': 'cw'
+    'body': """
+      componentWillMount:function(){
+      	$0
+      },
+    """
+  'ES6 React componentDidUpdate':
     'prefix': '6cdu'
     'body': """
       componentDidUpdate(prevProps, prevState) {
         $0
       }
     """
-  '6cwr':
+  'ES6 React componentWillReceiveProps':
     'prefix': '6cwr'
     'body': """
       componentWillReceiveProps(nextProps){
       	$0
       }
     """
-  '6cwup':
+  'ES6 React componentWillUpdate':
     'prefix': '6cwup'
     'body': """
       componentWillUpdate(nextProps, nextState) {
         $0
       }
     """
-  '6scu':
+  'ES6 React shouldComponentUpdate':
     'prefix': '6scu'
     'body': """
       shouldComponentUpdate(nextProps, nextState) {
         return ;
       }
     """
-  'cdu':
+  'React componentDidUpdate':
     'prefix': 'cdu'
     'body': """
       componentDidUpdate: function(prevProps, prevState) {
         $0
       },
     """
-  'cwr':
+  'React componentWillReceiveProps':
     'prefix': 'cwr'
     'body': """
       componentWillReceiveProps:function(nextProps){
       	$0
       },
     """
-  'cwup':
+  'React componentWillUpdate':
     'prefix': 'cwup'
     'body': """
       componentWillUpdate: function(nextProps, nextState) {
         $0
       },
     """
-  'scu':
+  'React shouldComponentUpdate':
     'prefix': 'scu'
     'body': """
       shouldComponentUpdate: function(nextProps, nextState) {
         return ;
       },
     """
-  'ctt':
+  'React ChildContextTypes':
     'prefix': 'ctt'
     'body': """
       childContextTypes: {
         $0
       },
     """
-  'cty':
+  'React contextTypes':
     'prefix': 'cty'
     'body': """
       contextTypes: {
         $0
       },
     """
-  'gc':
+  'React getChildContext':
     'prefix': 'gc'
     'body': """
       getChildContext:function(){
@@ -142,122 +135,122 @@
         }
       },
     """
-  'rwc':
+  'React withContext':
     'prefix': 'rwc'
     'body': """
       React.withContext({$1}, function(){
         React.render(<${2:Component} />, document.$0);
       })
     """
-  'rc':
+  'React.createElement()':
     'prefix': 'rc'
     'body': 'React.createElement(\'$1\', $2, $3)$0'
-  'rcf':
+  'React.createFactory()':
     'prefix': 'rcf'
     'body': 'React.createFactory($1)$0'
-  'onbl':
+  'onBlur':
     'prefix': 'onbl'
     'body': 'onBlur$0'
-  'onch':
+  'onChange':
     'prefix': 'onch'
     'body': 'onChange$0'
-  'oncl':
+  'onClick':
     'prefix': 'oncl'
     'body': 'onClick$0'
-  'oncm':
+  'onContextMenu':
     'prefix': 'oncm'
     'body': 'onContextMenu$0'
-  'onco':
+  'onCopy':
     'prefix': 'onco'
     'body': 'onCopy$0'
-  'onct':
+  'onCut':
     'prefix': 'onct'
     'body': 'onCut$0'
-  'ondc':
+  'onDoubleClick':
     'prefix': 'ondc'
     'body': 'onDoubleClick$0'
-  'onde':
+  'onDragEnd':
     'prefix': 'onde'
     'body': 'onDragEnd$0'
-  'onden':
+  'onDragEnter':
     'prefix': 'onden'
     'body': 'onDragEnter$0'
-  'ondex':
+  'onDragExit':
     'prefix': 'ondex'
     'body': 'onDragExit$0'
-  'ondl':
+  'onDragLeave':
     'prefix': 'ondl'
     'body': 'onDragLeave$0'
-  'ondo':
+  'onDragOver':
     'prefix': 'ondo'
     'body': 'onDragOver$0'
-  'onds':
+  'onDragStart':
     'prefix': 'onds'
     'body': 'onDragStart$0'
-  'ondr':
+  'onDrop':
     'prefix': 'ondr'
     'body': 'onDrop$0'
-  'onfo':
+  'onFocus':
     'prefix': 'onfo'
     'body': 'onFocus$0'
-  'onin':
+  'onInput':
     'prefix': 'onin'
     'body': 'onInput$0'
-  'onkd':
+  'onKeyDown':
     'prefix': 'onkd'
     'body': 'onKeyDown$0'
-  'onkp':
+  'onKeyPress':
     'prefix': 'onkp'
     'body': 'onKeyPress$0'
-  'onku':
+  'onKeyUp':
     'prefix': 'onku'
     'body': 'onKeyUp$0'
-  'onmd':
+  'onMouseDown':
     'prefix': 'onmd'
     'body': 'onMouseDown$0'
-  'onme':
+  'onMouseEnter':
     'prefix': 'onme'
     'body': 'onMouseEnter$0'
-  'onml':
+  'onMouseLeave':
     'prefix': 'onml'
     'body': 'onMouseLeave$0'
-  'onmm':
+  'onMouseMove':
     'prefix': 'onmm'
     'body': 'onMouseMove$0'
-  'onmo':
+  'onMouseOut':
     'prefix': 'onmo'
     'body': 'onMouseOut$0'
-  'onmov':
+  'onMouseOver':
     'prefix': 'onmov'
     'body': 'onMouseOver$0'
-  'onmu':
+  'onMouseUp':
     'prefix': 'onmu'
     'body': 'onMouseUp$0'
-  'onpa':
+  'onPaste':
     'prefix': 'onpa'
     'body': 'onPaste$0'
-  'onsc':
+  'onScroll':
     'prefix': 'onsc'
     'body': 'onScroll$0'
-  'onsu':
+  'onSubmit':
     'prefix': 'onsu'
     'body': 'onSubmit$0'
-  'ontc':
+  'onTouchCancel':
     'prefix': 'ontc'
     'body': 'onTouchCancel$0'
-  'onte':
+  'onTouchEnd':
     'prefix': 'onte'
     'body': 'onTouchEnd$0'
-  'ontm':
+  'onTouchMove':
     'prefix': 'ontm'
     'body': 'onTouchMove$0'
-  'onts':
+  'onTouchStart':
     'prefix': 'onts'
     'body': 'onTouchStart$0'
-  'onwh':
+  'onWheel':
     'prefix': 'onwh'
     'body': 'onWheel$0'
-  'gd':
+  'React getDefaultProps':
     'prefix': 'gd'
     'body': """
       getDefaultProps:function(){
@@ -266,81 +259,81 @@
       	}
       },
     """
-  'gi':
+  'React getInitialState':
     'prefix': 'gi'
     'body': """
       getInitialState:function(){
       	return {$0}
       },
     """
-  'imr':
+  'import react':
     'prefix': 'imr'
     'body': 'import React from \'react\';'
-  'pt':
+  'propTypes':
     'prefix': 'pt'
     'body': """
       propTypes: {
       	$0
       },
     """
-  'rp':
+  'React.PropTypes':
     'prefix': 'rp'
     'body': 'React.PropTypes.$0'
-  'rpa':
+  'React.PropTypes.array':
     'prefix': 'rpa'
     'body': 'React.PropTypes.array$0'
-  'rpao':
+  'React.PropTypes.arrayOf':
     'prefix': 'rpao'
     'body': 'React.PropTypes.arrayOf($0)'
-  'rpb':
+  'React.PropTypes.boolean':
     'prefix': 'rpb'
     'body': 'React.PropTypes.boolean$0'
-  'rpe':
+  'React.PropTypes.element':
     'prefix': 'rpe'
     'body': 'React.PropTypes.element$0'
-  'rpf':
+  'React.PropTypes.func':
     'prefix': 'rpf'
     'body': 'React.PropTypes.func$0'
-  'rpi':
+  'React.PropTypes.instanceOf':
     'prefix': 'rpi'
     'body': 'React.PropTypes.instanceOf($0)'
-  'rpn':
+  'React.PropTypes.number':
     'prefix': 'rpn'
     'body': 'React.PropTypes.number$0'
-  'rpobj':
+  'React.PropTypes.object':
     'prefix': 'rpobj'
     'body': 'React.PropTypes.object$0'
-  'rpo':
+  'React.PropTypes.oneOf':
     'prefix': 'rpo'
     'body': 'React.PropTypes.oneOf([\'$0\'])'
-  'rpot':
+  'React.PropTypes.oneOfType':
     'prefix': 'rpot'
     'body': 'React.PropTypes.oneOfType[]'
-  'rpsh':
+  'React.PropTypes.shape':
     'prefix': 'rpsh'
     'body': """
       React.PropTypes.shape({
       	$0
       })
     """
-  'rps':
+  'React.PropTypes.string':
     'prefix': 'rps'
     'body': 'React.PropTypes.string$0'
-  'sp':
+  'React this.setProps':
     'prefix': 'sp'
     'body': 'this.setProps({$0})'
-  'ss':
+  'React this.setState':
     'prefix': 'ss'
     'body': 'this.setState({$0})'
-  'thisc':
+  'React this.context':
     'prefix': 'thisc'
     'body': 'this.context.$0'
-  'thisp':
+  'React this.props':
     'prefix': 'thisp'
     'body': 'this.props.$0'
-  'thisr':
+  'React this.refs':
     'prefix': 'thisr'
     'body': 'this.refs.$0'
-  'thiss':
+  'React this.state':
     'prefix': 'thiss'
     'body': 'this.state.$0'

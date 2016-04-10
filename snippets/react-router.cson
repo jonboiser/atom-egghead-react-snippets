@@ -1,23 +1,20 @@
-# Generated with Atomizr v0.14.0 - https://github.com/idleberg/atomizr
+# Generated with Atomizr v0.15.0 - https://github.com/idleberg/atomizr
 '.source.js.jsx':
-  'imrr':
+  'import react-router':
     'prefix': 'imrr'
     'body': 'import { $0 } from \'react-router\';'
-  'link':
+  'react-router Link':
     'prefix': 'link'
     'body': '<Link to=\"$1\">$2</Link>$0'
-  'redirect':
+  'react-router Redirect':
     'prefix': 'redirect'
     'body': '<Redirect from=\'$1\' to=\'$2\'></Redirect>$0'
-  'ilink':
+  'Router.IndexLink':
     'prefix': 'ilink'
     'body': '<IndexLink to=\"$1\">$2</IndexLink>'
-  'iroute':
+  'Router.IndexRoute':
     'prefix': 'iroute'
     'body': '<IndexRoute component={ $1 }>$0</IndexRoute>'
-  'route':
-    'prefix': 'route'
-    'body': '<Route path=\"$1\" component={$2}>$0</Route>'
-  'router':
+  'Router.Route':
     'prefix': 'router'
     'body': '<Router history={ $1 }>$0</Router>'
