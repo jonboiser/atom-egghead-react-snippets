@@ -1,0 +1,24 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Applications/Atom.app/Contents/Resources/app/apm/bin/node',
+1 verbose cli   '/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'version',
+1 verbose cli   '0.1.0',
+1 verbose cli   '-m',
+1 verbose cli   'Prepare %s release' ]
+2 info using npm@2.13.3
+3 info using node@v0.10.40
+4 verbose stack Error: Version not changed
+4 verbose stack     at /Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/lib/version.js:51:49
+4 verbose stack     at /Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:76:16
+4 verbose stack     at fs.js:272:14
+4 verbose stack     at /Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:42:10
+4 verbose stack     at Object.oncomplete (fs.js:108:15)
+5 verbose cwd /Users/jonathan/Code/atom-egghead-react-snippets
+6 error Darwin 15.4.0
+7 error argv "/Applications/Atom.app/Contents/Resources/app/apm/bin/node" "/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js" "version" "0.1.0" "-m" "Prepare %s release"
+8 error node v0.10.40
+9 error npm  v2.13.3
+10 error Version not changed
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
