@@ -5,7 +5,11 @@
     'body': 'import { $1 } from \'react-router\'$0'
   '<Router>':
     'prefix': 'router'
-    'body': '<Router history={$1}>$0</Router>'
+    'body': """
+      <Router history={$1}>
+        $0
+      </Router>
+    """
   '<Link>':
     'prefix': 'link'
     'body': '<Link to=\"$1\">$2</Link>$0'
