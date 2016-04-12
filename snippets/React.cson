@@ -4,7 +4,7 @@
     'prefix': '6rec'
     'body': """
       class $1 extends React.Component {
-        render(){
+        render() {
           $0
         }
       }
@@ -13,7 +13,7 @@
     'prefix': 'rec'
     'body': """
       var $1 = React.createClass({
-        render:function(){
+        render: function() {
           return $0
         }
       });
@@ -38,21 +38,21 @@
   'React componentWillUnmount':
     'prefix': 'cwu'
     'body': """
-      componentWillUnmount:function(){
+      componentWillUnmount: function() {
       	$0
       },
     """
   'React componentDidMount':
     'prefix': 'cd'
     'body': """
-      componentDidMount:function(){
+      componentDidMount: function() {
       	$0
       },
     """
   'React componentWillMount':
     'prefix': 'cw'
     'body': """
-      componentWillMount:function(){
+      componentWillMount: function() {
       	$0
       },
     """
@@ -129,7 +129,7 @@
   'React getChildContext':
     'prefix': 'gc'
     'body': """
-      getChildContext:function(){
+      getChildContext: function() {
         return {
           $1
         }
@@ -253,7 +253,7 @@
   'React getDefaultProps':
     'prefix': 'gd'
     'body': """
-      getDefaultProps:function(){
+      getDefaultProps: function() {
       	return {
       		$1
       	}
@@ -262,7 +262,7 @@
   'React getInitialState':
     'prefix': 'gi'
     'body': """
-      getInitialState:function(){
+      getInitialState: function() {
       	return {$0}
       },
     """
