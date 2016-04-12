@@ -2,19 +2,28 @@
 '.source.js.jsx':
   'import react-router':
     'prefix': 'imrr'
-    'body': 'import { $0 } from \'react-router\';'
-  'react-router Link':
+    'body': 'import { $1 } from \'react-router\'$0'
+  '<Router>':
+    'prefix': 'router'
+    'body': '<Router history={$1}>$0</Router>'
+  '<Link>':
     'prefix': 'link'
     'body': '<Link to=\"$1\">$2</Link>$0'
-  'react-router Redirect':
+  '<Redirect>':
     'prefix': 'redirect'
-    'body': '<Redirect from=\'$1\' to=\'$2\'></Redirect>$0'
-  'Router.IndexLink':
+    'body': '<Redirect from=\"$1\" to=\"$2\"></Redirect>$0'
+  '<IndexLink>':
     'prefix': 'ilink'
     'body': '<IndexLink to=\"$1\">$2</IndexLink>'
-  'Router.IndexRoute':
+  '<IndexRoute>':
     'prefix': 'iroute'
-    'body': '<IndexRoute component={ $1 }>$0</IndexRoute>'
-  'Router.Route':
-    'prefix': 'router'
-    'body': '<Router history={ $1 }>$0</Router>'
+    'body': '<IndexRoute component={$1}>$0</IndexRoute>'
+  '<IndexRoute />':
+    'prefix': 'iroute/'
+    'body': '<IndexRoute component={$1} />$0'
+  '<Route>':
+    'prefix': 'route'
+    'body': '<Route path="$1" component={$2}>$0</Route>'
+  '<Route />':
+    'prefix': 'route/'
+    'body': '<Route path="$1" component={$2} />'
