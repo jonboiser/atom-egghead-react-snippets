@@ -2,13 +2,13 @@
 '.source.js.jsx':
   'import react-dom':
     'prefix': 'imrd'
-    'body': 'import ReactDOM from \'react-dom\';'
-  'React.findDOMNode':
+    'body': 'import ReactDOM from \'react-dom\'$0'
+  'ReactDOM.findDOMNode':
     'prefix': 'fdn'
     'body': 'ReactDOM.findDOMNode($0)'
-  'react-dom render':
+  'ReactDOM.render':
     'prefix': 'rdr'
     'body': 'ReactDOM.render($0)'
-  'ReactDOM unmountComponent at node':
+  'ReactDOM.unmountComponentAtNode':
     'prefix': 'unm'
     'body': 'ReactDOM.unmountComponentAtNode($0)'
