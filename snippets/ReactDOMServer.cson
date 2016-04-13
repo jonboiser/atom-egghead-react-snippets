@@ -1,5 +1,8 @@
 # Generated with Atomizr v0.15.0 - https://github.com/idleberg/atomizr
 '.source.js.jsx':
+  'import ReactDOMServer':
+    'prefix': 'imrds'
+    'body': 'import ReactDOMServer from \'react-dom/server\'$0'
   'ReactDOMServer.renderToStaticMarkup':
     'prefix': 'rtsm'
     'body': 'ReactDOMServer.renderToStaticMarkup($0)'
