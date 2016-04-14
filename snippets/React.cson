@@ -95,56 +95,6 @@
   'import react':
     'prefix': 'imr'
     'body': 'import React from \'react\';'
-  'propTypes':
-    'prefix': 'pt'
-    'body': """
-      propTypes: {
-      	$0
-      },
-    """
-  'React.PropTypes':
-    'prefix': 'rp'
-    'body': 'React.PropTypes.$0'
-  'React.PropTypes.array':
-    'prefix': 'rpa'
-    'body': 'React.PropTypes.array$0'
-  'React.PropTypes.arrayOf':
-    'prefix': 'rpao'
-    'body': 'React.PropTypes.arrayOf($0)'
-  'React.PropTypes.boolean':
-    'prefix': 'rpb'
-    'body': 'React.PropTypes.boolean$0'
-  'React.PropTypes.element':
-    'prefix': 'rpe'
-    'body': 'React.PropTypes.element$0'
-  'React.PropTypes.func':
-    'prefix': 'rpf'
-    'body': 'React.PropTypes.func$0'
-  'React.PropTypes.instanceOf':
-    'prefix': 'rpi'
-    'body': 'React.PropTypes.instanceOf($0)'
-  'React.PropTypes.number':
-    'prefix': 'rpn'
-    'body': 'React.PropTypes.number$0'
-  'React.PropTypes.object':
-    'prefix': 'rpobj'
-    'body': 'React.PropTypes.object$0'
-  'React.PropTypes.oneOf':
-    'prefix': 'rpo'
-    'body': 'React.PropTypes.oneOf([\'$0\'])'
-  'React.PropTypes.oneOfType':
-    'prefix': 'rpot'
-    'body': 'React.PropTypes.oneOfType[]'
-  'React.PropTypes.shape':
-    'prefix': 'rpsh'
-    'body': """
-      React.PropTypes.shape({
-      	$0
-      })
-    """
-  'React.PropTypes.string':
-    'prefix': 'rps'
-    'body': 'React.PropTypes.string$0'
   'React this.setProps':
     'prefix': 'sp'
     'body': 'this.setProps({$0})'
