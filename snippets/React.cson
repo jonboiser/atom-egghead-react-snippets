@@ -4,6 +4,11 @@
     'prefix': '6rec'
     'body': """
       class $1 extends React.Component {
+        constructor(props) {
+          super(props)
+          this.state = { }
+        }
+
         render() {
           $0
         }
