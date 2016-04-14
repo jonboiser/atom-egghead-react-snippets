@@ -1,6 +1,6 @@
 # Generated with Atomizr v0.15.0 - https://github.com/idleberg/atomizr
 '.source.js.jsx':
-  'ES6 React.Component class':
+  'React Component (ES6)':
     'prefix': '6rec'
     'body': """
       class $1 extends React.Component {
@@ -14,42 +14,42 @@
       	}
       }
     """
-  'ES6 React componentDidMount':
+  'React componentDidMount (ES6)':
     'prefix': '6cd'
     'body': """
       componentDidMount(){
       	$0
       }
     """
-  'ES6 React componentWillMount':
+  'React componentWillMount (ES6)':
     'prefix': '6cw'
     'body': """
       componentWillMount(){
       	$0
       }
     """
-  'ES6 React componentDidUpdate':
+  'React componentDidUpdate (ES6)':
     'prefix': '6cdu'
     'body': """
       componentDidUpdate(prevProps, prevState) {
       	$0
       }
     """
-  'ES6 React componentWillReceiveProps':
+  'React componentWillReceiveProps (ES6)':
     'prefix': '6cwr'
     'body': """
       componentWillReceiveProps(nextProps){
       	$0
       }
     """
-  'ES6 React componentWillUpdate':
+  'React componentWillUpdate (ES6)':
     'prefix': '6cwup'
     'body': """
       componentWillUpdate(nextProps, nextState) {
       	$0
       }
     """
-  'ES6 React shouldComponentUpdate':
+  'React shouldComponentUpdate (ES6)':
     'prefix': '6scu'
     'body': """
       shouldComponentUpdate(nextProps, nextState) {
