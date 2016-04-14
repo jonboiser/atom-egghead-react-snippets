@@ -14,18 +14,6 @@
         }
       }
     """
-  'React createClass template':
-    'prefix': 'rec'
-    'body': """
-      var $1 = React.createClass({
-        render: function() {
-          return $0
-        }
-      });
-    """
-  'React mixins':
-    'prefix': 'mix'
-    'body': 'mixins:[$0],'
   'ES6 React componentDidMount':
     'prefix': '6cd'
     'body': """
@@ -39,27 +27,6 @@
       componentWillMount(){
       	$0
       }
-    """
-  'React componentWillUnmount':
-    'prefix': 'cwu'
-    'body': """
-      componentWillUnmount: function() {
-      	$0
-      },
-    """
-  'React componentDidMount':
-    'prefix': 'cd'
-    'body': """
-      componentDidMount: function() {
-      	$0
-      },
-    """
-  'React componentWillMount':
-    'prefix': 'cw'
-    'body': """
-      componentWillMount: function() {
-      	$0
-      },
     """
   'ES6 React componentDidUpdate':
     'prefix': '6cdu'
@@ -88,34 +55,6 @@
       shouldComponentUpdate(nextProps, nextState) {
         return ;
       }
-    """
-  'React componentDidUpdate':
-    'prefix': 'cdu'
-    'body': """
-      componentDidUpdate: function(prevProps, prevState) {
-        $0
-      },
-    """
-  'React componentWillReceiveProps':
-    'prefix': 'cwr'
-    'body': """
-      componentWillReceiveProps:function(nextProps){
-      	$0
-      },
-    """
-  'React componentWillUpdate':
-    'prefix': 'cwup'
-    'body': """
-      componentWillUpdate: function(nextProps, nextState) {
-        $0
-      },
-    """
-  'React shouldComponentUpdate':
-    'prefix': 'scu'
-    'body': """
-      shouldComponentUpdate: function(nextProps, nextState) {
-        return ;
-      },
     """
   'React ChildContextTypes':
     'prefix': 'ctt'
@@ -255,22 +194,6 @@
   'onWheel':
     'prefix': 'onwh'
     'body': 'onWheel$0'
-  'React getDefaultProps':
-    'prefix': 'gd'
-    'body': """
-      getDefaultProps: function() {
-      	return {
-      		$1
-      	}
-      },
-    """
-  'React getInitialState':
-    'prefix': 'gi'
-    'body': """
-      getInitialState: function() {
-      	return {$0}
-      },
-    """
   'import react':
     'prefix': 'imr'
     'body': 'import React from \'react\';'
