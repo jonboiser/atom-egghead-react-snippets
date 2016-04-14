@@ -1,36 +1,6 @@
 # React Top-Level API
 # http://facebook.github.io/react/docs/top-level-api.html
 '.source.js.jsx':
-  'React ChildContextTypes':
-    'prefix': 'ctt'
-    'body': """
-      childContextTypes: {
-      	$0
-      },
-    """
-  'React contextTypes':
-    'prefix': 'cty'
-    'body': """
-      contextTypes: {
-      	$0
-      },
-    """
-  'React getChildContext':
-    'prefix': 'gc'
-    'body': """
-      getChildContext: function() {
-      	return {
-      		$1
-      	}
-      },
-    """
-  'React withContext':
-    'prefix': 'rwc'
-    'body': """
-      React.withContext({$1}, function(){
-      	React.render(<${2:Component} />, document.$0);
-      })
-    """
   'React.createElement()':
     'prefix': 'rc'
     'body': 'React.createElement(\'$1\', $2, $3)$0'
