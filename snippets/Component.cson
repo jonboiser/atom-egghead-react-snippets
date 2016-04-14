@@ -1,0 +1,60 @@
+# Component API and Lifecycle Methods
+# http://facebook.github.io/react/docs/component-api.html
+# http://facebook.github.io/react/docs/component-specs.html
+'source.js.jsx':
+  'React Component (ES6)':
+    'prefix': '6rec'
+    'body': """
+      class $1 extends React.Component {
+      	constructor(props) {
+      		super(props)
+      		this.state = { }
+      	}
+
+      	render() {
+      		$0
+      	}
+      }
+    """
+  'React componentDidMount (ES6)':
+    'prefix': '6cd'
+    'body': """
+      componentDidMount(){
+      	$0
+      }
+    """
+  'React componentWillMount (ES6)':
+    'prefix': '6cw'
+    'body': """
+      componentWillMount(){
+      	$0
+      }
+    """
+  'React componentDidUpdate (ES6)':
+    'prefix': '6cdu'
+    'body': """
+      componentDidUpdate(prevProps, prevState) {
+      	$0
+      }
+    """
+  'React componentWillReceiveProps (ES6)':
+    'prefix': '6cwr'
+    'body': """
+      componentWillReceiveProps(nextProps){
+      	$0
+      }
+    """
+  'React componentWillUpdate (ES6)':
+    'prefix': '6cwup'
+    'body': """
+      componentWillUpdate(nextProps, nextState) {
+      	$0
+      }
+    """
+  'React shouldComponentUpdate (ES6)':
+    'prefix': '6scu'
+    'body': """
+      shouldComponentUpdate(nextProps, nextState) {
+      	return ;
+      }
+    """
