@@ -4,14 +4,14 @@
     'prefix': '6rec'
     'body': """
       class $1 extends React.Component {
-        constructor(props) {
-          super(props)
-          this.state = { }
-        }
+      	constructor(props) {
+      		super(props)
+      		this.state = { }
+      	}
 
-        render() {
-          $0
-        }
+      	render() {
+      		$0
+      	}
       }
     """
   'ES6 React componentDidMount':
@@ -32,7 +32,7 @@
     'prefix': '6cdu'
     'body': """
       componentDidUpdate(prevProps, prevState) {
-        $0
+      	$0
       }
     """
   'ES6 React componentWillReceiveProps':
@@ -46,44 +46,44 @@
     'prefix': '6cwup'
     'body': """
       componentWillUpdate(nextProps, nextState) {
-        $0
+      	$0
       }
     """
   'ES6 React shouldComponentUpdate':
     'prefix': '6scu'
     'body': """
       shouldComponentUpdate(nextProps, nextState) {
-        return ;
+      	return ;
       }
     """
   'React ChildContextTypes':
     'prefix': 'ctt'
     'body': """
       childContextTypes: {
-        $0
+      	$0
       },
     """
   'React contextTypes':
     'prefix': 'cty'
     'body': """
       contextTypes: {
-        $0
+      	$0
       },
     """
   'React getChildContext':
     'prefix': 'gc'
     'body': """
       getChildContext: function() {
-        return {
-          $1
-        }
+      	return {
+      		$1
+      	}
       },
     """
   'React withContext':
     'prefix': 'rwc'
     'body': """
       React.withContext({$1}, function(){
-        React.render(<${2:Component} />, document.$0);
+      	React.render(<${2:Component} />, document.$0);
       })
     """
   'React.createElement()':
