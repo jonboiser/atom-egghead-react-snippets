@@ -1,12 +1,18 @@
 # React Top-Level API
 # http://facebook.github.io/react/docs/top-level-api.html
 '.source.js.jsx':
+  'import react':
+    'prefix': 'imr'
+    'body': 'import React from \'react\'$0'
+  'React.createClass()':
+    'prefix': 'rec'
+    'body': 'React.createClass({$1})$0'
   'React.createElement()':
     'prefix': 'rc'
     'body': 'React.createElement(\'$1\', $2, $3)$0'
+  'React.cloneElement()':
+    'prefix': 'rclo'
+    'body': 'React.cloneElement($1, $2, $3)$0'
   'React.createFactory()':
     'prefix': 'rcf'
     'body': 'React.createFactory($1)$0'
-  'import react':
-    'prefix': 'imr'
-    'body': 'import React from \'react\';'
