@@ -58,3 +58,21 @@
       	return ;
       }
     """
+  'React this.setProps':
+    'prefix': 'sp'
+    'body': 'this.setProps({$0})'
+  'React this.setState':
+    'prefix': 'ss'
+    'body': 'this.setState({$0})'
+  'React this.context':
+    'prefix': 'thisc'
+    'body': 'this.context.$0'
+  'React this.props':
+    'prefix': 'thisp'
+    'body': 'this.props.$0'
+  'React this.refs':
+    'prefix': 'thisr'
+    'body': 'this.refs.$0'
+  'React this.state':
+    'prefix': 'thiss'
+    'body': 'this.state.$0'
