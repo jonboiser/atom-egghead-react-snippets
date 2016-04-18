@@ -18,5 +18,8 @@ Go to [ReactSublimeSnippets](https://github.com/joemaddalone/ReactSublimeSnippet
 * Edit descriptions to make them easier to read in Atom.
 * Remove React.DOM snippets (i.e. assume JSX-only workflow).
 * Remove ES5 snippets (i.e. assume using ES2015+).
+* ~~Remove React.DOM snippets (i.e. assume JSX-only workflow).~~
+* ~~Remove ES5 snippets (i.e. assume using ES2015+).~~
+* ~~Edit descriptions to make them easier to read in Atom.~~
 
 Contributions are welcome!
