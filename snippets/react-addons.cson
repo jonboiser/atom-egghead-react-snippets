@@ -1,32 +1,31 @@
-# Generated with Atomizr v0.15.0 - https://github.com/idleberg/atomizr
 '.source.js.jsx':
   'import cloneWithProps':
     'prefix': 'imrcl'
-    'body': 'import cloneWithProps from \'react-addons-clone-with-props\';$0'
+    'body': 'import cloneWithProps from \'react-addons-clone-with-props\'$0'
   'import createFragment':
     'prefix': 'imrcf'
-    'body': 'import createFragment from \'react-addons-create-fragment\';$0'
+    'body': 'import createFragment from \'react-addons-create-fragment\'$0'
   'import LinkedStateMixin':
     'prefix': 'imrlsm'
-    'body': 'import LinkedStateMixin from \'react-addons-linked-state-mixin\';$0'
+    'body': 'import LinkedStateMixin from \'react-addons-linked-state-mixin\'$0'
   'import Perf':
     'prefix': 'imrp'
-    'body': 'import Perf from \'react-addons-perf\';$0'
+    'body': 'import Perf from \'react-addons-perf\'$0'
   'import PureRenderMixin':
     'prefix': 'imrpr'
-    'body': 'import PureRenderMixin from \'react-addons-pure-render-mixin\';$0'
+    'body': 'import PureRenderMixin from \'react-addons-pure-render-mixin\'$0'
   'import ReactCSSTransitionGroup':
     'prefix': 'imrcst'
-    'body': 'import ReactCSSTransitionGroup from \'react-addons-css-transition-group\';$0'
+    'body': 'import ReactCSSTransitionGroup from \'react-addons-css-transition-group\'$0'
   'import ReactTestUtils':
     'prefix': 'imrtu'
-    'body': 'import ReactTestUtils from \'react-addons-test-utils\';$0'
+    'body': 'import ReactTestUtils from \'react-addons-test-utils\'$0'
   'import ReactTransitionGroup':
     'prefix': 'imrtg'
-    'body': 'import ReactTransitionGroup from \'react-addons-transition-group\';$0'
+    'body': 'import ReactTransitionGroup from \'react-addons-transition-group\'$0'
   'import shallowCompare':
     'prefix': 'imrsc'
-    'body': 'import shallowCompare from \'react-addons-shallow-compare\';$0'
+    'body': 'import shallowCompare from \'react-addons-shallow-compare\'$0'
   'import update':
     'prefix': 'imru'
-    'body': 'import update from \'react-addons-update\';$0'
+    'body': 'import update from \'react-addons-update\'$0'

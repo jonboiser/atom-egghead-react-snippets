@@ -55,7 +55,7 @@
     'prefix': '6scu'
     'body': """
       shouldComponentUpdate(nextProps, nextState) {
-      	return ;
+      	$0
       }
     """
   'React this.setProps':
