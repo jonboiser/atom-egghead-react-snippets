@@ -1,7 +1,7 @@
 # Component API and Lifecycle Methods
 # http://facebook.github.io/react/docs/component-api.html
 # http://facebook.github.io/react/docs/component-specs.html
-'source.js.jsx':
+'.source.js.jsx':
   'React Component (ES6)':
     'prefix': '6rec'
     'body': """
@@ -12,7 +12,7 @@
       	}
 
       	render() {
-      		$0
+      		return $0
       	}
       }
     """

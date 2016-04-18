@@ -1,4 +1,4 @@
-'source.js.jsx':
+'.source.js.jsx':
   'onBlur':
     'prefix': 'onbl'
     'body': 'onBlur$0'
