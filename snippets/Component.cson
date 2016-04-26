@@ -19,14 +19,14 @@
   'React componentDidMount (ES6)':
     'prefix': '6cd'
     'body': """
-      componentDidMount(){
+      componentDidMount() {
       	$0
       }
     """
   'React componentWillMount (ES6)':
     'prefix': '6cw'
     'body': """
-      componentWillMount(){
+      componentWillMount() {
       	$0
       }
     """
@@ -40,7 +40,7 @@
   'React componentWillReceiveProps (ES6)':
     'prefix': '6cwr'
     'body': """
-      componentWillReceiveProps(nextProps){
+      componentWillReceiveProps(nextProps) {
       	$0
       }
     """

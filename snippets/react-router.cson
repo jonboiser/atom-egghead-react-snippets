@@ -7,7 +7,7 @@
     'prefix': 'router'
     'body': """
       <Router history={$1}>
-        $0
+      	$0
       </Router>
     """
   '<Link>':
