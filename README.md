@@ -7,19 +7,15 @@ If you've seen Joe's videos on [Egghead](https://egghead.io), you've probably se
 
 ## Snippets
 
-Go to [ReactSublimeSnippets](https://github.com/joemaddalone/ReactSublimeSnippets) for a table of all the snippets.
+This library has many of the snippets in [ReactSublimeSnippets](https://github.com/joemaddalone/ReactSublimeSnippets), but not all of them. It does not include snippets for:
 
-## Roadmap
+* `React.DOM` API, since it assumes people will be using JSX.
+* ES5-style `React.createClass({...})` style of defining Component classes, assuming people will be using ES6 class syntax.
 
-* Make snippets compliant with AirBnB style guide.
-* Add any new APIs from React v15.
-* Convert tabs to spaces to handle (maybe).
-* Add snippets for redux (maybe).
-* Edit descriptions to make them easier to read in Atom.
-* Remove React.DOM snippets (i.e. assume JSX-only workflow).
-* Remove ES5 snippets (i.e. assume using ES2015+).
-* ~~Remove React.DOM snippets (i.e. assume JSX-only workflow).~~
-* ~~Remove ES5 snippets (i.e. assume using ES2015+).~~
-* ~~Edit descriptions to make them easier to read in Atom.~~
+It also differs stylistically from the original versions:
+* Adheres to Airbnb style guide.
+* Use tabs instead of spaces to accommodate different tab-widths.
+* Descriptions are edited to read better in atom-autocomplete tooltips.
 
-Contributions are welcome!
+## Future plans
+In future versions, I would like to add snippets for Redux and ES7 syntax.
