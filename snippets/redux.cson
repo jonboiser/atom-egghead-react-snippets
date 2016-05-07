@@ -1,0 +1,32 @@
+# Snippets for redux
+'.source.js.jsx':
+  'redux reducer':
+    'prefix': 'rdcr'
+    'body': """
+      initialState = {}
+      export default function reducer(state = initialState, action) {
+      	switch (action.type) {
+      		case $0:
+      		default:
+      			return state
+      	}
+      }
+    """
+  'redux simple FSA':
+    'prefix': 'fsa'
+    'body': """
+      {
+      	type: $0,
+      	payload: ,
+      }
+    """
+  'redux full FSA':
+    'prefix': 'fsa/'
+    'body': """
+      {
+      	type: $0,
+      	payload:,
+      	error:,
+      	meta:,
+      }
+    """
