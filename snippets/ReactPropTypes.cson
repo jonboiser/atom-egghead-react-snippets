@@ -6,6 +6,13 @@
       	$0
       },
     """
+  'Component.propTypes':
+    'prefix': 'cpt'
+    'body': """
+      ${1:"Component"}.propTypes = {
+        $0
+      }
+    """
   'React.PropTypes':
     'prefix': 'rp'
     'body': 'React.PropTypes.$0'
