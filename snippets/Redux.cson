@@ -1,0 +1,22 @@
+'.source.js.jsx':
+  'mapStateToProps':
+    'prefix': 'rdxmapsta'
+    'body': """
+      function mapStateToProps(state) {
+      	return {
+      		$0
+      	}
+      }
+    """
+  'mapDispatchToProps':
+    'prefix': 'rdxmapdis'
+    'body': """
+      function mapDispatchToProps(state) {
+      	return {
+      		$0
+      	}
+      }
+    """
+  'connect(Component)':
+    'prefix': 'rdxconn'
+    'body': 'connect(mapStateToProps, mapDispatchToProps)($0)'
