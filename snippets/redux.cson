@@ -1,32 +1,22 @@
-# Snippets for redux
 '.source.js.jsx':
-  'redux reducer':
-    'prefix': 'rdcr'
+  'mapStateToProps':
+    'prefix': 'rdxmapsta'
     'body': """
-      initialState = {}
-      export default function reducer(state = initialState, action) {
-      	switch (action.type) {
-      		case $0:
-      		default:
-      			return state
+      function mapStateToProps(state) {
+      	return {
+      		$0
       	}
       }
     """
-  'redux simple FSA':
-    'prefix': 'fsa'
+  'mapDispatchToProps':
+    'prefix': 'rdxmapdis'
     'body': """
-      {
-      	type: $0,
-      	payload: ,
+      function mapDispatchToProps(state) {
+      	return {
+      		$0
+      	}
       }
     """
-  'redux full FSA':
-    'prefix': 'fsa/'
-    'body': """
-      {
-      	type: $0,
-      	payload:,
-      	error:,
-      	meta:,
-      }
-    """
+  'connect(Component)':
+    'prefix': 'rdxconn'
+    'body': 'connect(mapStateToProps, mapDispatchToProps)($0)'
