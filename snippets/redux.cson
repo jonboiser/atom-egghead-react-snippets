@@ -11,7 +11,7 @@
   'mapDispatchToProps':
     'prefix': 'rdxmapdis'
     'body': """
-      function mapDispatchToProps(state) {
+      function mapDispatchToProps(dispatch) {
       	return {
       		$0
       	}
