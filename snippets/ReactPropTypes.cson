@@ -22,9 +22,9 @@
   'React.PropTypes.arrayOf':
     'prefix': 'rpao'
     'body': 'React.PropTypes.arrayOf($0)'
-  'React.PropTypes.boolean':
+  'React.PropTypes.bool':
     'prefix': 'rpb'
-    'body': 'React.PropTypes.boolean$0'
+    'body': 'React.PropTypes.bool$0'
   'React.PropTypes.element':
     'prefix': 'rpe'
     'body': 'React.PropTypes.element$0'
